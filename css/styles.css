@@ -9,7 +9,7 @@ body, h1, h2, h3, p, button, input, label, form {
 body {
     font-family: 'Poppins', sans-serif; /* Updated font family */
     background-color: #f4f4f4;
-    background-image: url('../images/background.jpg'); /* Updated path to background image */
+    background-image: url('../images/background.jpg'); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@ body {
 .container {
     max-width: 800px;
     margin: 50px auto;
-    background-color: rgba(255, 255, 255, 0.9); /* Adjusted background color with transparency */
+    background-color: rgba(255, 255, 255, 0.9); 
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
