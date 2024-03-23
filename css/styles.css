@@ -7,9 +7,9 @@ body, h1, h2, h3, p, button, input, label, form {
 
 /* Global styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif; /* Updated font family */
     background-color: #f4f4f4;
-    background-image: url('css/images/background.jpg'); 
+    background-image: url('../images/background.jpg'); /* Updated path to background image */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@ body {
 .container {
     max-width: 800px;
     margin: 50px auto;
-    background-color: #fff;
+    background-color: rgba(255, 255, 255, 0.9); /* Adjusted background color with transparency */
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -31,7 +31,7 @@ header {
 }
 
 h1 {
-    font-size: 28px;
+    font-size: 32px; /* Increased font size */
 }
 
 p {
@@ -86,7 +86,7 @@ button:hover {
     }
 
     h1 {
-        font-size: 32px;
+        font-size: 36px; /* Further increased font size */
     }
 
     input, button {
@@ -100,7 +100,7 @@ button:hover {
     }
 
     h1 {
-        font-size: 36px;
+        font-size: 40px; /* Further increased font size */
     }
 
     input, button {
